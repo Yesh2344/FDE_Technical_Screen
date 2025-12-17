@@ -39,6 +39,7 @@ def sort(width: float, height: float, length: float, mass: float) -> str:
         is_bulky = True
     else:
 # Added comment
+# Added comment
         is_bulky = False
 
     # Determine if the package is heavy
