@@ -9,6 +9,7 @@ def sort(width: float, height: float, length: float, mass: float) -> str:
     - A package is **heavy** if its mass is >= 20 kg.
 
     🏷️ Stacks:
+# Added comment
     - **REJECTED**: If the package is both heavy AND bulky.
     - **SPECIAL**: If the package is EITHER heavy OR bulky (but not both, as that's REJECTED).
     - **STANDARD**: If the package is NEITHER heavy NOR bulky.
