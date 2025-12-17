@@ -44,6 +44,7 @@ def sort(width: float, height: float, length: float, mass: float) -> str:
 
     # Determine if the package is heavy
     # Standard if/else, avoiding ternary operator
+# Added comment
     if mass >= MASS_THRESHOLD_KG:
         is_heavy = True
     else:
